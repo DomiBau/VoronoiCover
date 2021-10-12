@@ -14,6 +14,10 @@ followed by the coordinates of the points (x,y\n)
 
 You can check the input-file of this project as an example.
 
+# Variables
+Set your variables in the global variable section in VoronoiCover.java.
+Every variable that has to be set by the user has a comment describing what the variable stands for.
+
 # Distance-function
 Currently the distance-function implements euclidean distance.
 You can modify the distance-function "getDistanceBetweenPoints" in VoronoiCover.java to change this.
