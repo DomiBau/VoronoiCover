@@ -1,16 +1,20 @@
+# Reference Work
+Please cite "Loh et. al., Robust Gateway Placement for Scalable LoRaWAN, 13th IFIP Wireless and Mobile Networking Conference (IFIP WMNC)" if you use the placement approach.
+
+
 # VoronoiCover
 Implements the Voronoi Cover, a type of Set-Cover with extra restrictions.
 
 # Input
 The program requires an input-file (resources/input.txt) of the following format:
 
-numberOfCircles,maxRadius\n
+numberOfCircles,maxRadius
 
-followed by the coordinates of circle-centers (x,y\n)
+followed by the coordinates of circle-centers x,y (one pair per line)
 
-numberOfPoints\n
+numberOfPoints
 
-followed by the coordinates of the points (x,y\n)
+followed by the coordinates of the points x,y (one pair per line)
 
 You can check the input-file of this project as an example.
 
